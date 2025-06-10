@@ -91,5 +91,5 @@ Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 - Next steps: add touch UI, dynamic backlight (photoresistor), and maybe a settings menu.
 
 
-Time spent today: **2 hours** (coding, planning UI, integrating wttr.in, and preparing for hardware)
+Time spent today: **1.25 hours**
 
