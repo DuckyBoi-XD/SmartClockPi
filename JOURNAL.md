@@ -91,5 +91,20 @@ Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 - Next steps: add touch UI, dynamic backlight (photoresistor), and maybe a settings menu.
 
 
-Time spent today: **1.25 hours**
+Time spent this session: **1.25 hours**
 
+---
+
+I started working on the schematic for the project. I wanted to include both the Raspberry Pi header, the BME280 sensor, and the ILI9488 touchscreen display in my design. However, I ran into an issue: I couldn't find a suitable symbol or footprint for the LCD screen I’m using (the ILI9488 SPI TFT touchscreen) in my KiCad’s library. 
+
+I decided to use generic header pins to represent the LCD screen in the schematic. This way, I was able to clearly show all of the required connections for the display, including the SPI and touch controller signals, power, and backlight control. 
+
+<img width="250" alt="The LCD" src="https://github.com/user-attachments/assets/cbc5bc3f-4be9-495b-b5dd-a5738ce62850" />
+
+When i get the PCB, I will just solder some female header pins (1x14) onto the board, and plug the screen in. I might need some standoffs though...
+
+<img width="500" alt="Screenshot 2025-06-10 at 4 03 51 PM" src="https://github.com/user-attachments/assets/614353b9-a2c5-44db-b817-d876454f31ce" />
+
+Next step: add in a photoresistor
+
+Time spent this session: **2 hours**
