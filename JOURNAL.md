@@ -68,3 +68,28 @@ The BME280:
 - add a photoresistor or something to chnage the bightness dynamically
 
 Time spent today: **1.25 hours** (research, planning, reviewing libraries, looking for modules, and mapping out wiring)
+
+---
+
+## 10/6/25
+
+### Update 1/2
+
+Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
+
+**Today:**
+- Wrote the main Python app logic for the clock display and sensor/weather integration.
+- Used the `luma.lcd` library for the ILI9488 SPI display, and `adafruit-circuitpython-bme280` for the sensor interface.
+- Integrated free weather data from wttr.in for Auckland, Half Moon Bay area (no API key required).
+- The app will show:  
+  - Real time and date (large, clear fonts)
+  - Indoor temperature, humidity, and pressure (from BME280, once connected)
+  - Outdoor weather: main status, temperature, humidity, and icon (from wttr.in)
+- Weather auto-refreshes every 10 minutes, sensor data every second.
+- Alarm logic is removed for now to keep the code simple.
+- All code is structured to be ready for testing as soon as the display and sensors are available.
+- Next steps: add touch UI, dynamic backlight (photoresistor), and maybe a settings menu.
+
+
+Time spent today: **2 hours** (coding, planning UI, integrating wttr.in, and preparing for hardware)
+
