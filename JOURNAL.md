@@ -44,7 +44,7 @@ The BME280:
 | 8   | LED       | Backlight control (tie to 3.3V for always on)  | 3.3V (Pin 1 or 17)          |
 | 9   | SDO(MISO) | SPI bus read data signal (optional)            | GPIO9 (SPI0_MISO, Pin 21)   |
 
-#### Touch Panel Pins (if using touch, XPT2046 controller)
+#### Touch Panel Pins (using touch, XPT2046 controller)
 | Pin  | Name   | Description                              | Raspberry Pi GPIO (need to work this out later)   |
 |------|--------|------------------------------------------|------------------------------|
 | 10   | T_CLK  | Touch SPI bus clock signal               | Any free GPIO  |
