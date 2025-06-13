@@ -95,6 +95,8 @@ Time spent this session: **1.25 hours**
 
 ---
 
+### Update 2/3
+
 I started working on the schematic for the project. I wanted to include both the Raspberry Pi header, the BME280 sensor, and the ILI9488 touchscreen display in my design. However, I ran into an issue: I couldn't find a suitable symbol or footprint for the LCD screen I’m using (the ILI9488 SPI TFT touchscreen) in my KiCad’s library. 
 
 I decided to use generic header pins to represent the LCD screen in the schematic. This way, I was able to clearly show all of the required connections for the display, including the SPI and touch controller signals, power, and backlight control. 
@@ -108,3 +110,29 @@ When i get the PCB, I will just solder some female header pins (1x14) onto the b
 Next step: add in a photoresistor
 
 Time spent this session: **2 hours**
+
+---
+
+## 11/6/25
+
+### Update 1/4
+
+I finalised my schematic during the session. The main challenge is to find the footprints and symbols for my parts. I ended up using female header pins to plug my modules in.
+
+<img width="700" alt="Screenshot 2025-06-13 at 2 10 22 PM" src="https://github.com/user-attachments/assets/8b46b163-35c3-475e-a70f-2e2b0f7908da" />
+
+Time spent this session: **5 hours**
+
+---
+
+## 12/6/25
+
+### Update 1/5
+
+Started working on the PCB. It was very stupid converting the schematics into PCB. The `Tools > Update PCB from schematics` was greyed out. But somehow I made it work after wasting a lot of time...
+
+<img width="600" alt="Screenshot 2025-06-13 at 2 14 14 PM" src="https://github.com/user-attachments/assets/a3d68089-22b4-4e6e-8d0a-89676849072a" />
+
+Time spent this session: **3 hours**
+
+---
