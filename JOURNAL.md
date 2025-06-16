@@ -7,7 +7,7 @@ created_at: "2025-06-09"
 
 ## 8/6/25
 
-### Update 1/1
+### Update 1
 
 Started a new project for a smart clock using the Raspberry Pi Zero 2 W.
 
@@ -73,7 +73,7 @@ Time spent today: **2 hours** (research, planning, reviewing libraries, looking 
 
 ## 10/6/25
 
-### Update 1/2
+### Update 2
 
 Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 
@@ -95,7 +95,7 @@ Time spent this session: **1.5 hours**
 
 ---
 
-### Update 2/3
+### Update 3
 
 I started working on the schematic for the project. I wanted to include both the Raspberry Pi header, the BME280 sensor, and the ILI9488 touchscreen display in my design. However, I ran into an issue: I couldn't find a suitable symbol or footprint for the LCD screen I’m using (the ILI9488 SPI TFT touchscreen) in my KiCad’s library. 
 
@@ -115,7 +115,7 @@ Time spent this session: **3 hours**
 
 ## 11/6/25
 
-### Update 1/4
+### Update 4
 
 I finalised my schematic during the session. The main challenge is to find the footprints and symbols for my parts. I ended up using female header pins to plug my modules in.
 
@@ -127,7 +127,7 @@ Time spent this session: **5 hours**
 
 ## 12/6/25
 
-### Update 1/5
+### Update 5
 
 Started working on the PCB. It was very stupid converting the schematics into PCB. The `Tools > Update PCB from schematics` was greyed out. But somehow I made it work after wasting a lot of time...
 
@@ -136,3 +136,16 @@ Started working on the PCB. It was very stupid converting the schematics into PC
 Time spent this session: **4 hours**
 
 ---
+
+## 14/5/25 & 15/5/25
+
+### Update 6
+
+---
+
+## 13/5/25 & 16/5/25
+
+### Update 7
+
+Did a lot of work on the PCB. I connected all my 17 parts (at the time of writing) together. The big, main issue I had 
+![image](https://github.com/user-attachments/assets/8004084d-f2dd-41ae-8ae3-297c97ecfa25)
