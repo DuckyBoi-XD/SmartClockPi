@@ -141,7 +141,11 @@ Time spent this session: **4 hours**
 
 ### Update 6
 
+Started sourcing the parts and organising them into a spreadsheet/Excel document
 
+![image](https://github.com/user-attachments/assets/95ea8ce4-3a46-45c9-84f4-c55df7a3fad1)
+
+(note there are a lot of mistakes - 16/6/25)
 
 ---
 
