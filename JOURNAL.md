@@ -67,7 +67,7 @@ The BME280:
 **TO_DO**
 - add a photoresistor or something to chnage the bightness dynamically
 
-Time spent today: **1.25 hours** (research, planning, reviewing libraries, looking for modules, and mapping out wiring)
+Time spent today: **2 hours** (research, planning, reviewing libraries, looking for modules, and mapping out wiring)
 
 ---
 
@@ -91,7 +91,7 @@ Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 - Next steps: add touch UI, dynamic backlight (photoresistor), and maybe a settings menu.
 
 
-Time spent this session: **1.25 hours**
+Time spent this session: **1.5 hours**
 
 ---
 
@@ -109,7 +109,7 @@ When i get the PCB, I will just solder some female header pins (1x14) onto the b
 
 Next step: add in a photoresistor
 
-Time spent this session: **2 hours**
+Time spent this session: **3 hours**
 
 ---
 
@@ -133,6 +133,6 @@ Started working on the PCB. It was very stupid converting the schematics into PC
 
 <img width="600" alt="Screenshot 2025-06-13 at 2 14 14 PM" src="https://github.com/user-attachments/assets/a3d68089-22b4-4e6e-8d0a-89676849072a" />
 
-Time spent this session: **3 hours**
+Time spent this session: **4 hours**
 
 ---
