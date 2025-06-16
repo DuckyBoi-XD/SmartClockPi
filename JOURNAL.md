@@ -141,11 +141,19 @@ Time spent this session: **4 hours**
 
 ### Update 6
 
+
+
 ---
 
 ## 13/5/25 & 16/5/25
 
 ### Update 7
 
-Did a lot of work on the PCB. I connected all my 17 parts (at the time of writing) together. The big, main issue I had 
+Did a lot of work on the PCB. I connected all my 17 parts (at the time of writing) together. The big, main issue I had was to get the blue "wires" (connector lines) to show up on some of the parts. Turned out KiCad didn't know which pins were which, so it ignored them. I changed the pin numbers from correct ones to lables, replacing the numbers, since I couldn't make the lables show up before. So I changed the pin numbers back, and YAY!!
+
 ![image](https://github.com/user-attachments/assets/8004084d-f2dd-41ae-8ae3-297c97ecfa25)
+![image](https://github.com/user-attachments/assets/a15f812d-8b11-4a60-9d95-41e4d99620bc)
+
+The PCB is done, so long as I don't decide to drop a few more parts in....
+
+Time spent this session: **6 hours**
