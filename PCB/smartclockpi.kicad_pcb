@@ -4946,6 +4946,31 @@
 		(layer "Edge.Cuts")
 		(uuid "087364bb-d7b3-4824-ae0a-19aa49e86af5")
 	)
+	(gr_text "Rev. 1.0"
+		(at 112.75 72.25 0)
+		(layer "F.SilkS")
+		(uuid "20aff7d5-2cab-4349-903c-0a9bbbcc6fdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Copyleft 2025 Raymont Qin (QinCai)\nSome rights reserved\nLicensed under the GPLv3 License\n\ngithub.com/QinCai-rui/SmartClockPi"
+		(at 48 77.25 0)
+		(layer "F.SilkS")
+		(uuid "cf19571d-b895-41c6-a715-b66da5469619")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 69.95576 90.87)
 		(end 76.849 83.97676)
