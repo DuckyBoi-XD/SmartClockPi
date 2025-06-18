@@ -161,3 +161,28 @@ Did a lot of work on the PCB. I connected all my 17 parts (at the time of writin
 The PCB is done, so long as I don't decide to drop a few more parts in....
 
 Time spent this session: **6 hours**
+
+---
+
+## 17/5/25
+
+### Update 8
+
+Added my parts to my BOM. I started to source some of the parts, including the Raspberry Pi Zero 2 ($25 before, now $15!!)
+<img width="700" alt="Screenshot 2025-06-18 at 5 00 41 PM" src="https://github.com/user-attachments/assets/3278bda1-5172-4bd0-a776-0cb1779417fa" />
+
+Time spent this session: **1.5 hours**
+
+---
+
+## 18/5/25
+
+### Update 9
+
+For this session I worked more on the PCB. Unfortunately I did change the PCB layout to make way for the USB connectors. The connectors are for the Li-ion battery charger module. Since there is an extra USB output, I put it in to work by connecting it to the PCB, offering 2.4A@5V QC. 
+
+<img width="752" alt="Screenshot 2025-06-18 at 5 03 47 PM" src="https://github.com/user-attachments/assets/8b69d894-29c8-4c0a-84c1-67cbd9748c50" />
+
+<img width="697" alt="Screenshot 2025-06-18 at 5 03 28 PM" src="https://github.com/user-attachments/assets/932bb99d-33cc-4610-8a25-70910fb0ae22" />
+
+
