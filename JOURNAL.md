@@ -179,10 +179,12 @@ Time spent this session: **1.5 hours**
 
 ### Update 9
 
-For this session I worked more on the PCB. Unfortunately I did change the PCB layout to make way for the USB connectors. The connectors are for the Li-ion battery charger module. Since there is an extra USB output, I put it in to work by connecting it to the PCB, offering 2.4A@5V QC. 
+For this session, I worked more on the PCB. Unfortunately, I did change the PCB layout to make way for the USB connectors. The connectors are for the Li-ion battery charger module. Since there is an extra USB output, I connected it to the PCB, providing 2.4A at 5V QC. 
 
 <img width="752" alt="Screenshot 2025-06-18 at 5 03 47 PM" src="https://github.com/user-attachments/assets/8b69d894-29c8-4c0a-84c1-67cbd9748c50" />
 
 <img width="697" alt="Screenshot 2025-06-18 at 5 03 28 PM" src="https://github.com/user-attachments/assets/932bb99d-33cc-4610-8a25-70910fb0ae22" />
 
+Sourcing the USB ports was very annoying, especially with the microUSB ports (there are so many different kinds!!)
 
+Time spent this session: **2.5 hours**
