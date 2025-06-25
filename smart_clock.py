@@ -8,8 +8,6 @@ import board
 import adafruit_bme280
 import requests
 
-
-
 # --- INIT HARDWARE --
 serial = spi(port=0, device=0, gpio_DC=24, gpio_RST=25, bus_speed_hz=48000000)
 device = ili9488(serial, width=480, height=320, rotate=0)
