@@ -6,7 +6,7 @@ A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmenta
 
 <img width="750" alt="Screenshot 2025-06-18 at 5 03 28 PM" src="https://github.com/user-attachments/assets/932bb99d-33cc-4610-8a25-70910fb0ae22" />
 
-## 🌟 Features
+## Features
 
 ### Display & Interface
 - **3.5" ILI9488 SPI TFT Touchscreen** (480x320 pixels)
@@ -34,26 +34,25 @@ A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmenta
 - Female header pins for easy module connection
 - Compact form factor (94.5mm x 67.2mm PCB)
 
-## 🔧 Hardware Components
-Please see [SmartClockPi-bom.csv](SmartClockPi-bom.csv)
+## Hardware Components
+Please see [SmartClockPi-bom.csv](SmartClockPi-bom.csv) (Created since this is required for Highway)
 
-## 🚀 Software Features
+## Software Features
 
 - **Python-based application** using:
   - `luma.lcd` for display control
   - `adafruit-circuitpython-bme280` for sensor interface
   - `Pillow` for graphics rendering
-- Real-time clock display with large, clear fonts
+- Real-time clock display with large, clear fonts. Need to test if this actually works
 - Weather data integration from wttr.in
 - Environmental sensor monitoring
-- Modular code structure for easy expansion
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SmartClockPi/
 ├── README.md
-├── JOURNAL.md                 # Development journal with progress updates
+├── JOURNAL.md                # Development journal with progress updates
 ├── SmartClockPi-bom.csv      # Bill of Materials
 ├── PCB/                      # KiCad PCB design files
 │   ├── smartclockpi.kicad_pro
@@ -65,8 +64,8 @@ SmartClockPi/
 
 ## 📄 License
 
-This project is open source. Feel free to contribute or use it for your own projects!
+This project is Free and Open-source, licensed under the GPLv3 license. Feel free to contribute or use it for your own projects!
 
----
+See [LICENSE](LICENSE) for more details.
 
-*Total development time logged: 24+ hours across multiple sessions*
+---------
