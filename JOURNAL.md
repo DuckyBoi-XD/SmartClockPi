@@ -5,6 +5,8 @@ description: "A Raspberry Pi Zero 2 W based smart clock with touchscreen, enviro
 created_at: "2025-06-09"
 ---
 
+Time spent on this project: **~30 hours**
+
 ## 8/6/25
 
 ### Update 1
@@ -188,3 +190,12 @@ For this session, I worked more on the PCB. Unfortunately, I did change the PCB 
 Sourcing the USB ports was very annoying, especially with the microUSB ports (there are so many different kinds!!)
 
 Time spent this session: **2.5 hours**
+
+--- 
+
+## 19/5/25 - 24/5/25
+
+### Update 10
+
+I tried finallise sourcing the parts for my project.
+WIP
