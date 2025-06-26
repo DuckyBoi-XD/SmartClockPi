@@ -5,9 +5,11 @@ A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmenta
 ## KiCad Stuff
 
 ### PCB Design
+
 <img width="750" alt="PCB image" src="assets/pcb_image.png" />
 
 ### Schematics
+
 <img width="750" alt="Schematics image" src="assets/schematics_image.png" />
 
 ## Features
