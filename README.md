@@ -4,6 +4,8 @@ A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmenta
 
 ## KiCad Stuff
 
+This project uses KiCad for PCB design. The files are located in the `PCB/` directory. You can open them with KiCad to view the schematics and PCB layout. These are the screenshots of the PCB and schematics:
+
 ### PCB Design
 
 <img width="750" alt="PCB image" src="assets/pcb_image.png" />
