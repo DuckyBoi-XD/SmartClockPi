@@ -191,11 +191,18 @@ Sourcing the USB ports was very annoying, especially with the microUSB ports (th
 
 Time spent this session: **2.5 hours**
 
---- 
+---
 
 ## 19/5/25 - 24/5/25
 
 ### Update 10
 
-I tried finallise sourcing the parts for my project.
-WIP
+I tried to finallise sourcing the parts for my project.
+
+![AliExpress](assets/aliexpress_prices.png)
+![Digikey](assets/digikey_prices.png---
+title: "RasPiCube"
+author: "@QinCai-rui"
+description: "A Raspberry Pi powered Rubik's cube timer and scramble generator"
+created_at: "2025-05-16"
+---)
