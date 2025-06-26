@@ -2,39 +2,51 @@
 
 A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmental sensing, and internet weather integration.
 
-<img width="750" alt="Screenshot 2025-06-18 at 5 03 47 PM" src="https://github.com/user-attachments/assets/8b69d894-29c8-4c0a-84c1-67cbd9748c50" />
+## KiCad Stuff
 
-<img width="750" alt="Screenshot 2025-06-18 at 5 03 28 PM" src="https://github.com/user-attachments/assets/932bb99d-33cc-4610-8a25-70910fb0ae22" />
+### PCB Design
+
+<img width="750" alt="PCB image" src="assets/pcb_image.png" />
+
+### Schematics
+
+<img width="750" alt="Schematics image" src="assets/schematics_image.png" />
 
 ## Features
 
 ### Display & Interface
+
 - **3.5" ILI9488 SPI TFT Touchscreen** (480x320 pixels)
 - Resistive touch input for UI
 - Large, clear font display for time and date
-- Automatic brightness adjustment via photoresistor (TODO)
+- Automatic brightness adjustment via photoresistor (TO-DO, once I get the parts)
 
 ### Environmental Monitoring
+
 - **DHT22 Sensor** for indoor temperature, humidity readings
 - Real-time sensor data updates
 
 ### Weather Integration
+
 - Internet weather data from wttr.in (Auckland, Half Moon Bay area)
 - No API key required
 - Displays outdoor temperature, humidity, and weather status
 - Update every 10 minutes
 
 ### Time & Clock Features
+
 - **DS3231 Real-Time Clock (RTC)** with battery backup
 - Maintains accurate time even when Pi is powered off (or when my internet dies)
 - Large, readable time display
 
 ### Hardware Features
+
 - Custom PCB design with modular connections (so i can unplug and replug the modules)
 - Female header pins for easy module connection
 - Compact form factor (94.5mm x 67.2mm PCB)
 
 ## Hardware Components
+
 Please see [SmartClockPi-bom.csv](SmartClockPi-bom.csv) (Created since this is required for Highway)
 
 ## Software Features
@@ -49,7 +61,7 @@ Please see [SmartClockPi-bom.csv](SmartClockPi-bom.csv) (Created since this is r
 
 ## Project Structure
 
-```
+```txt
 SmartClockPi/
 ├── README.md
 ├── JOURNAL.md                # Development journal with progress updates
@@ -68,4 +80,4 @@ This project is Free and Open-source, licensed under the GPLv3 license. Feel fre
 
 See [LICENSE](LICENSE) for more details.
 
----------
+---
