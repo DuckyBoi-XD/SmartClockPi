@@ -14,12 +14,14 @@ Time spent on this project: **~35 hours**
 Started a new project for a smart clock using the Raspberry Pi Zero 2 W.
 
 **Planning:**
+
 - Decided on a feature set: large touchscreen display, temperature/humidity/pressure monitoring, internet weather, touch sensing, and music playback for the alarm part.
 - Researched and compared display modules -- settled on a [3.5" ILI9488 SPI TFT resistive touchscreen (480x320)](https://www.aliexpress.com/item/1005007096645415.html). Good size and clarity.
 - Chose the [BME280 sensor](https://www.aliexpress.com/item/1005004527984343.html) for environmental data, using the I2C interface with the Pi and freeing SPI for the display.
 - Support for both devices with available Python libraries (`luma.lcd`, `Pillow`, `adafruit-circuitpython-bme280`). (at least I hope so)
 
 **Links:**  
+
 - [3.5" ILI9488 SPI TFT Touch Display](https://www.aliexpress.com/item/1005007096645415.html)  
 - [BME280 I2C/SPI Sensor Module](https://www.aliexpress.com/item/1005004527984343.html)
 
@@ -28,12 +30,12 @@ Used the pinout provided in the datasheet for the display:
 
 <img width="400" alt="Screenshot 2025-06-09 at 7 57 09 AM" src="https://github.com/user-attachments/assets/7534f6dd-263e-4af9-aac8-a5d92e26f83b" />
 
-The BME280: 
+The BME280:
 
 <img width="400" alt="Screenshot 2025-06-09 at 7 57 27 AM" src="https://github.com/user-attachments/assets/dabfdbd2-09e0-47c8-8cde-d9e1b7570a04" />
 
-
 #### SPI Display Pins (ILI9488)
+
 | Pin | Name      | Description                                    | Raspberry Pi Zero 2 W Pin   |
 |-----|-----------|------------------------------------------------|-----------------------------|
 | 1   | VCC       | 5V/3.3V power input                            | 3.3V (Pin 1 or 17)          |
@@ -47,6 +49,7 @@ The BME280:
 | 9   | SDO(MISO) | SPI bus read data signal (optional)            | GPIO9 (SPI0_MISO, Pin 21)   |
 
 #### Touch Panel Pins (using touch, XPT2046 controller)
+
 | Pin  | Name   | Description                              | Raspberry Pi GPIO (need to work this out later)   |
 |------|--------|------------------------------------------|------------------------------|
 | 10   | T_CLK  | Touch SPI bus clock signal               | Any free GPIO  |
@@ -56,6 +59,7 @@ The BME280:
 | 14   | T_IRQ  | Touch interrupt (active low)             | Any free GPIO                |
 
 #### BME280 Sensor (I2C)
+
 | Pin  | Name | Description          | Raspberry Pi Zero 2 W Pin |
 |------|------|----------------------|---------------------------|
 | 1    | VCC  | 3.3V power           | 3.3V (Pin 1 or 17)        |
@@ -67,6 +71,7 @@ The BME280:
 - LED pin on display can be tied to 3.3V for always-on backlight, or controlled by a PWM GPIO for dimming.
 
 **TO_DO**
+
 - add a photoresistor or something to chnage the bightness dynamically
 
 Time spent today: **2 hours** (research, planning, reviewing libraries, looking for modules, and mapping out wiring)
@@ -80,6 +85,7 @@ Time spent today: **2 hours** (research, planning, reviewing libraries, looking 
 Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 
 **Today:**
+
 - Wrote the main Python app logic for the clock display and sensor/weather integration.
 - Used the `luma.lcd` library for the ILI9488 SPI display, and `adafruit-circuitpython-bme280` for the sensor interface.
 - Integrated free weather data from wttr.in for Auckland, Half Moon Bay area (no API key required).
@@ -92,16 +98,15 @@ Worked on SmartClockPi code and UI, even though I don't have the hardware yet.
 - All code is structured to be ready for testing as soon as the display and sensors are available.
 - Next steps: add touch UI, dynamic backlight (photoresistor), and maybe a settings menu.
 
-
 Time spent this session: **1.5 hours**
 
 ---
 
 ### Update 3
 
-I started working on the schematic for the project. I wanted to include both the Raspberry Pi header, the BME280 sensor, and the ILI9488 touchscreen display in my design. However, I ran into an issue: I couldn't find a suitable symbol or footprint for the LCD screen I’m using (the ILI9488 SPI TFT touchscreen) in my KiCad’s library. 
+I started working on the schematic for the project. I wanted to include both the Raspberry Pi header, the BME280 sensor, and the ILI9488 touchscreen display in my design. However, I ran into an issue: I couldn't find a suitable symbol or footprint for the LCD screen I’m using (the ILI9488 SPI TFT touchscreen) in my KiCad’s library.
 
-I decided to use generic header pins to represent the LCD screen in the schematic. This way, I was able to clearly show all of the required connections for the display, including the SPI and touch controller signals, power, and backlight control. 
+I decided to use generic header pins to represent the LCD screen in the schematic. This way, I was able to clearly show all of the required connections for the display, including the SPI and touch controller signals, power, and backlight control.
 
 <img width="250" alt="The LCD" src="https://github.com/user-attachments/assets/cbc5bc3f-4be9-495b-b5dd-a5738ce62850" />
 
@@ -181,7 +186,7 @@ Time spent this session: **1.5 hours**
 
 ### Update 9
 
-For this session, I worked more on the PCB. Unfortunately, I did change the PCB layout to make way for the USB connectors. The connectors are for the Li-ion battery charger module. Since there is an extra USB output, I connected it to the PCB, providing 2.4A at 5V QC. 
+For this session, I worked more on the PCB. Unfortunately, I did change the PCB layout to make way for the USB connectors. The connectors are for the Li-ion battery charger module. Since there is an extra USB output, I connected it to the PCB, providing 2.4A at 5V QC.
 
 <img width="752" alt="Screenshot 2025-06-18 at 5 03 47 PM" src="https://github.com/user-attachments/assets/8b69d894-29c8-4c0a-84c1-67cbd9748c50" />
 
