@@ -17,7 +17,7 @@ A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmenta
 - **3.5" ILI9488 SPI TFT Touchscreen** (480x320 pixels)
 - Resistive touch input for UI
 - Large, clear font display for time and date
-- Automatic brightness adjustment via photoresistor (TODO)
+- Automatic brightness adjustment via photoresistor (TO-DO, once I get the parts)
 
 ### Environmental Monitoring
 
