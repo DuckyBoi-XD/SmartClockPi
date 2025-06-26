@@ -5,7 +5,7 @@ description: "A Raspberry Pi Zero 2 W based smart clock with touchscreen, enviro
 created_at: "2025-06-09"
 ---
 
-Time spent on this project: **~30 hours**
+Time spent on this project: **~35 hours**
 
 ## 8/6/25
 
@@ -200,9 +200,6 @@ Time spent this session: **2.5 hours**
 I tried to finallise sourcing the parts for my project.
 
 ![AliExpress](assets/aliexpress_prices.png)
-![Digikey](assets/digikey_prices.png---
-title: "RasPiCube"
-author: "@QinCai-rui"
-description: "A Raspberry Pi powered Rubik's cube timer and scramble generator"
-created_at: "2025-05-16"
----)
+![Digikey](assets/digikey_prices.png)
+
+Time spent this session: **7 hours**
