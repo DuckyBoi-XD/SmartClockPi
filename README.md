@@ -14,6 +14,10 @@ This project uses KiCad for PCB design. The files are located in the `PCB/` dire
 
 <img width="750" alt="Schematics image" src="assets/schematics_image.png" />
 
+## Sketch
+
+<img width="750" alt="sketch" src="https://github.com/user-attachments/assets/283bab9a-2045-44e5-bac4-4e4c9ae9bedf" />
+
 ## Features
 
 ### Display & Interface
