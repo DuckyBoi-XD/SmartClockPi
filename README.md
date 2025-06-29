@@ -88,7 +88,7 @@ SmartClockPi/
 └── [Software files to be added]
 ```
 
-## Licensewebdev03/berryprint
+## License
 
 This project is Free and Open-source, licensed under the GPLv3 license. Feel free to contribute or use it for your own projects!
 
