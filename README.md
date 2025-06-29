@@ -18,6 +18,14 @@ This project uses KiCad for PCB design. The files are located in the `PCB/` dire
 
 <img width="750" alt="sketch" src="https://github.com/user-attachments/assets/283bab9a-2045-44e5-bac4-4e4c9ae9bedf" />
 
+## Why I Made This
+
+I wanted a smart clock that could display the time, date, indoor temperature, humidity, and outdoor weather conditions. I also wanted it to have a touchscreen interface for easy interaction. The Raspberry Pi Zero 2 W was chosen for its compact size and sufficient processing power for this project.
+
+"Why don't you just buy a pre-made smart clock?" you might ask. Well, I wanted to learn more about PCB layout/designing. This project is a great way to "exercise" while creating something useful for myself.
+
+Also, I wanted to make it modular so I can easily swap out components or add new features in the future. The custom PCB design allows for easy connections and modifications.
+
 ## Features
 
 ### Display & Interface
@@ -80,7 +88,7 @@ SmartClockPi/
 └── [Software files to be added]
 ```
 
-## License
+## Licensewebdev03/berryprint
 
 This project is Free and Open-source, licensed under the GPLv3 license. Feel free to contribute or use it for your own projects!
 
