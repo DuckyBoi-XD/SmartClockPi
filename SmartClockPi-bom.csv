@@ -17,10 +17,10 @@ USB-A port,Power output (from battery charger),5 (use 1),https://www.digikey.co.
 18650 Lithium Battery Charger,5V 2.4A Dual USB OUT,"1 (pack of 2, use 1)",https://www.aliexpress.com/item/1005006839030660.html,$6.77,$0.00,$6.77,$7.79
 microSD card,64GB,2 (use 1),https://www.digikey.co.nz/en/products/detail/raspberry-pi/SC1629/24627140,$12.98,$0.00,$12.98,$14.93
 Diode,1N4001,100,https://www.digikey.co.nz/en/products/detail/diotec-semiconductor/1N4001/13164614,$4.66,$0.00,$4.66,$5.36
-USB speaker,,1,https://www.aliexpress.com/item/1005007586786674.html,$4.52,$8.20,$12.72,$14.63
+USB speaker,,1,https://www.aliexpress.com/item/1005007586786674.html,$4.66,$0.00,$4.66,$5.36
+USB break out cable,"USB-A male, 15cm, black",2,https://www.aliexpress.com/item/1005005187430946.html,$1.98,$0.00,$1.98,$2.28
+USB break out PCB,microUSB male,1,https://www.aliexpress.com/item/1005002644969073.html,$0.99,$0.00,$0.99,$1.14
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
-,,,,,,,
-,,,,,,,
-TOTAL,,,,,,$103.14,$118.61
+TOTAL,,,,,,$98.05,$112.76
