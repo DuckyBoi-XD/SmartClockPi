@@ -12,8 +12,7 @@ This project uses KiCad for PCB design. The files are located in the `PCB/` dire
 
 ### PCB rendering
 
-Sorry if this is not up-to-date, but I don't have KiCad installed on the NixOS machine I am using right now. I will update this once I get the latest version installed.
-![alt text](assets/pcb-render.png)
+![image](https://github.com/user-attachments/assets/026239ed-4c2b-48e2-8e07-ea2c5308d8bf)
 
 ### Schematics
 
