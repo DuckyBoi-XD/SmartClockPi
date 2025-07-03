@@ -489,7 +489,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "smartclockpi.glb",
+      "step": "smartclockpi.step",
       "svg": "",
       "vrml": ""
     },
