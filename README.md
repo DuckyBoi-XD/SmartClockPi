@@ -120,7 +120,6 @@ SmartClockPi/
 
 - Thanks to the Raspberry Pi community for their resources and other stuff.
 - A HUGE shoutout to my friend, [@DuckyBoi-XD](https://github.com/DuckyBoi-XD), for designing the case/enclosure for this project, located in the `CAD/` directory.
-- Copilot for helping me debug many things in this project, such as `systemd` and `luma.lcd` issues.
 
 ## License
 
