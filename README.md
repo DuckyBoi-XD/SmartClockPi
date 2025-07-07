@@ -22,6 +22,11 @@ This project uses KiCad for PCB design. The files are located in the `PCB/` dire
 
 <img width="750" alt="sketch" src="https://github.com/user-attachments/assets/283bab9a-2045-44e5-bac4-4e4c9ae9bedf" />
 
+## CAD (case design)
+
+![main case](assets/main_case.png)
+![production case](assets/prod_case.png)
+
 ## BOM (table format)
 
 | Component | Description | Quantity | Link | Price | Shipping | Est. price (exl. GST) | Est. price (inc. GST) |
