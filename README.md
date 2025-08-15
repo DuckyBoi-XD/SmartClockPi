@@ -1,5 +1,3 @@
-<img width="723" height="630" alt="Screenshot 2025-08-15 at 10 13 23 AM" src="https://github.com/user-attachments/assets/57862c78-3046-43ea-aaf1-40e85124804b" /># SmartClockPi
-
 A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmental sensing, and internet weather integration.
 
 ## KiCad Stuff
