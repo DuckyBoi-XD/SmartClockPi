@@ -1,4 +1,4 @@
-# SmartClockPi
+<img width="723" height="630" alt="Screenshot 2025-08-15 at 10 13 23 AM" src="https://github.com/user-attachments/assets/57862c78-3046-43ea-aaf1-40e85124804b" /># SmartClockPi
 
 A Raspberry Pi Zero 2 W based smart clock with touchscreen display, environmental sensing, and internet weather integration.
 
@@ -24,9 +24,10 @@ This project uses KiCad for PCB design. The files are located in the `PCB/` dire
 
 ## CAD (case design)
 
-![main case](assets/main_case.png)
-<img width="720" height="544" alt="image" src="https://github.com/user-attachments/assets/1e39a50c-d780-4d6d-9867-3e500ae1738e" />
-![production case](assets/prod_case.png)
+<img width="720" height="545" alt="image" src="https://github.com/user-attachments/assets/abb7502f-88f7-4763-b4ab-5c87a5a838c9" />
+<img width="720" height="545" alt="image" src="https://github.com/user-attachments/assets/20db108c-71dc-4bd1-893b-dd265579a02c" />
+<img width="1123" height="403" alt="image" src="https://github.com/user-attachments/assets/0f14a2ac-3d2c-415d-90a2-a225e9c62c22" />
+
 
 ## BOM (table format)
 
